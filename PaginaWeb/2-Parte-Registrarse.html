@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Crem.eSports</title>
+	<meta charset="utf-8">
+	<meta charset="iso 8859-1"/>
+	<meta name="description" content="pagina de deportes">
+	<meta name="keywords" content="animales medicina locos twich youtube tiktok">
+	<link type="/Recursos/x.icon" href="./Recursos/cod.ico" rel="icon">
+	<style type="text/css">
+
+	body {color: #000000;
+			font-family:impact ;}
+
+	.social{
+			width:48px;
+			position:fixed;
+			top:50px;
+			right:0;}
+
+	.social{
+			top:50%;
+			height:205px;
+			margin-top:-100px;}
+
+	.dos { background: white;
+		border: black 2px solid;
+		width: 850px;
+		height:50px;
+		position: absolute;
+		top: 3%;
+		left: 28%;
+		margin: 2% 0 0 0%; }
+
+	.menu { display: block; }
+
+	.button {
+  	display: inline-block;
+ 	padding: 10px 10px;
+  	font-size: 20px;
+  	text-align: right;
+  	outline: none;
+  	background-color: #FF0000;
+  	border-radius: 15px;
+  	box-shadow: 0 9px #000000;
+	}
+
+	.button:hover {background-color: #7E0000; }
+
+	
+
+</style>
+		<script type="text/javascript">
+
+	function fenviar(enviar) {
+	var nombre=form1.txt1.value;
+	var apellidos=form1.txt2.value;
+	var edad=form1.txt3.value;
+	var genero=form1.txt4.value;
+	var telefono=form1.txt5.value;
+	var correo=form1.txt6.value;
+	var contraseña=form1.txt7.value;
+	var repetir=form1.txt8.value;
+
+	if (nombre=="") {alert("Debe de rellenar el campo Nombre");return;}
+	if (apellidos=="") {alert("Debe de rellenar el campo Apellidos");return;}
+	if (edad=="") {alert("Debe de rellenar el campo de Edad");return;}
+	if (parseInt(edad) <18) {alert("Debes de ser mayor de edad para registrarse en la web de Crem.eSports");return;}
+	if ( isNaN(edad)) {alert("El campo debe de ser numérico");return;}
+	if (genero=="") {alert("Debe de seleccionar un sexo");return;}
+	if (telefono=="") {alert("Debe de rellenar el campo de Telefono");return;}
+	if (telefono.length != 9) {alert("Debe de tener mínimo 9 caractéres");return;}
+	if (isNaN(telefono)) {alert("El campo debe de ser numérico");return;}
+	if (correo=="")  {alert("Debe de rellenar el campo Correo Electrónico");return;}
+	if (contraseña=="")  {alert("Debe de rellenar el campo Contraseña");return;}
+	if (repetir!=contraseña)  {alert("La contraseña no es igual que en el anterior campo");return;}
+
+		location.href="3-Parte-Menu-Informacion.html";
+
+	}
+
+		</script>
+
+</head>
+<body background="./Recursos/Bienvenida.jpg">
+
+	<div class="social">
+		<a href="https://www.facebook.com/"><img height="40" src="./Recursos/WE.png" alt="facebook"></a>
+		<a href="https://www.youtube.com/"><img height="40" src="./Recursos/WO.png" alt="youtube"></a>
+		<a href="https://www.tiktok.com/es"><img height="40" src="./Recursos/WU.png" alt="tiktok"></a>
+		<a href="https://www.instagram.com/"><img height="40" src="./Recursos/WI.png" alt="instagram"></a>
+	</div>
+
+<form name="form1" action="">
+	<table cellspacing="10" cellpadding="1" class="dos" >
+	<tr>
+		<td align="center" colspan="4"> <img height="450" src="./Recursos/LOGO.png">
+	<tr>
+		<td colspan="4"> <hr>
+	<tr>
+		<td align="left"> Nombre:
+		<td> <input type="text" name="txt1" size="15">
+		<td align="center"> Apellido:
+		<td> <input type="text" name="txt2" size="15">
+	<tr>
+		<td colspan="4"> <hr>
+	<tr>
+		<td align="left"> Edad:
+		<td> <input type="text" name="txt3" size="5" maxlength="3" >
+		<td align="center"> Sexo:
+		<td align=""> Hombre <input type="radio" name="txt4" value="Masculino"> Mujer <input type="radio" name="txt4" value="Femenino">
+	<tr>
+		<td colspan="4"> <hr>
+	<tr>
+		<td align="left"> Nº de Teléfono:
+		<td> <input type="text" name="txt5" size="10" maxlength="9">
+		<td align="left"> Correo Electrónico:
+		<td> <input type="text" name="txt6" size="10" maxlength="20">
+	<tr>
+		<td colspan="4"> <hr>
+	<tr>
+		<td align="left"> Contraseña:
+		<td> <input type="password" name="txt7" size="10" maxlength="20">
+		<td align="left"> Repetir Contraseña:
+		<td> <input type="password" name="txt8" size="10" maxlength="20">
+	<tr>
+		<td colspan="4"> <hr>
+	<tr>
+		<td> <input type="button" name="enviar" value="Enviar" onclick="fenviar(form1)">
+
+	</table>
+</form>
+
+</body>
+</html>
