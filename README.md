@@ -22,21 +22,20 @@ El sitio está dividido en múltiples archivos HTML que componen diferentes secc
   - Equipo de competición
   - Gaming
   - Merchandising
-  - Información general
-
-  Cada una con su versión estándar y una versión “SR” posiblemente adaptada.
+  - Información general  
+  Cada una con su versión estándar y una versión “SR”.
 
 - 🟩 Parte 4: Objetos y productos  
-  Páginas individuales para mostrar cada producto con detalles visuales:
-  - Accesorios (mochilas, tazas, carteras…)
-  - Productos gaming (ratones, teclados, cascos…)
-  - Ropa y merchandising (camisetas, sudaderas, calzado…)
+  Páginas individuales para mostrar productos como:
+  - Mochilas, tazas, carteras
+  - Ratones, teclados, cascos
+  - Camisetas, sudaderas, calzado
 
 - 🛒 Parte 5: Comprar producto  
-  Páginas de simulación de compra individual de cada artículo.
+  Simulación de proceso de compra para cada artículo.
 
 - ✅ Parte 6: Finalizar compra  
-  Sección para cerrar el proceso de compra y simular un resumen de pedido.
+  Sección de resumen de pedido y cierre de compra.
 
 ---
 
@@ -44,32 +43,34 @@ El sitio está dividido en múltiples archivos HTML que componen diferentes secc
 
 Aunque los conocimientos técnicos en ese momento eran limitados, puse mucho empeño en la estética, distribución de contenido y experiencia de navegación.
 
-- Diseño modular y por partes
-- Navegación clara entre secciones
-- Colores llamativos y elementos gráficos diferenciados
-- Experiencia de usuario intuitiva y enfocada en el producto
+- Diseño modular por secciones
+- Navegación clara y sencilla
+- Colores llamativos y visuales diferenciadas
+- Enfoque en usabilidad y producto
 
 ---
 
 ## 🚀 Lo que aprendí
 
-- Fundamentos de HTML y estructura de páginas
-- Organización de archivos en un proyecto web
-- Trabajo por bloques/etapas
-- Diseño visual atractivo sin necesidad de frameworks
-- Constancia y pasión por crear desde cero
+- Fundamentos de HTML y estructura web
+- Organización de carpetas y archivos en un proyecto
+- Desarrollo por etapas
+- Diseño visual atractivo sin frameworks
+- Constancia, pasión y creatividad
 
 ---
 
-## 📌 Nota
+## 🔗 Acceso al Proyecto
 
-Este proyecto es el reflejo de mis primeros pasos como desarrollador web. Aunque hoy aplico técnicas más avanzadas, guardo con orgullo este trabajo como base de todo lo que vino después.
+Puedes acceder a la web desde el siguiente enlace:
+
+👉 https://byruby12.github.io/CremEsports/PaginaWeb/1-Parte-Bienvenida.html
 
 ---
 
 ## ✉️ Contacto
 
-Si quieres ver cómo he evolucionado desde este proyecto:
+¿Quieres ver cómo ha evolucionado mi trabajo desde este primer proyecto?
 
 📧 byruby12.contacto@gmail.com  
 🌐 https://comunidad-byruby12.jimdosite.com  
